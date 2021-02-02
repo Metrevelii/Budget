@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  color: #555;
+  font-family: Open Sans;
+  font-size: 16px;
+  position: relative;
+  height: 100vh;
+  font-weight: 400; }
+
+.red {
+  color: #FF5049 !important; }
+
+.red-focus:focus {
+  border: 1px solid #FF5049 !important; }
+
+.top {
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../back.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative; }
+
+.budget {
+  position: absolute;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; }
+
+.budget__title {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 300; }
+
+.budget__value {
+  font-weight: 300;
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 2px; }
+
+.budget__income {
+  background-color: #0099ff;
+  display: flex;
+  justify-content: space-between; }
+
+.budget__expenses--percentage {
+  display: none; }
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap; }
+
+.budget__income--text {
+  font-size: 22px;
+  padding: 10px; }
+
+.budget__income--value {
+  font-size: 22px;
+  padding: 10px;
+  font-weight: 300;
+  margin-right: 10px; }
+
+.budget__income--percentage {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 12px; }
+
+.budget__expenses--value {
+  font-weight: 300;
+  font-size: 22px;
+  padding: 10px; }
+
+.budget__expenses {
+  background-color: #FF5049;
+  display: flex;
+  justify-content: space-between; }
+
+.budget__expenses--text {
+  font-size: 22px;
+  padding: 10px; }
+
+/* bottom */
+.add {
+  text-align: center;
+  background-color: #f5f6fa;
+  padding: 10px; }
+
+.add__type {
+  width: 35px;
+  height: 35px; }
+
+.add__description {
+  width: 350px;
+  height: 35px;
+  padding: 7px; }
+
+.add__value {
+  height: 35px;
+  width: 200px;
+  padding: 7px; }
+
+.add__btn {
+  width: 35px;
+  height: 35px;
+  padding: 5px; }
+
+.ion-ios-checkmark-outline {
+  font-size: 15px; }
+  .ion-ios-checkmark-outline:focus {
+    outline: #0099ff; }
+
+.income__title {
+  color: #0099ff;
+  font-size: 24px;
+  font-weight: bold; }
+
+.expenses__title {
+  color: #ff5049;
+  font-size: 24px;
+  font-weight: bold; }
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
+.clearfix {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.item__description {
+  font-size: 16px;
+  color: #0099ff; }
+
+.item__value {
+  color: #0099ff;
+  margin: 0 0 0 10px; }
